@@ -12,9 +12,13 @@ namespace _11_CustomHTMLHelperMethod.Controllers
         // GET: Home
         public ActionResult homepage()
         {
+            List<Message> messages = new List<Message>();
+            messages.Add(new Message() { Level = 3, Text = "Ut fusce varius" });
+            messages.Add(new Message() { Level = 1, Text = "nisl ac ipsum gravida " });
+            messages.Add(new Message() { Level = 2, Text = "vel pretium tellus tincidunt" });
+            messages.Add(new Message() { Level = 4, Text = "integer eu augue augue" });
 
-
-            return View();
+            return View(messages);
         }
     }
 }

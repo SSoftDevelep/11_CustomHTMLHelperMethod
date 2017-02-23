@@ -18,6 +18,12 @@
        @Html.Alert("alert1","success", "Ut fusce varius nisl ac ipsum gravida vel pretium tellus tincidunt integer eu augue augue nunc elit dolor, luctus placerat.")
 
 
+        @foreach (Message item in Model)
+        {
+            @Html.AlertFor(Model => item, new { title = item.Text, level = item.Level });
+        }
+
+
     </div>
 </body>
 </html>
