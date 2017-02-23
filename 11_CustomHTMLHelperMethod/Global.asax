@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="_11_CustomHTMLHelperMethod.MvcApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="_11_CustomHTMLHelperMethod.MVCHtmlString" Language="C#" %>

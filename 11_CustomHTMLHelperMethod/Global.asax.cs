@@ -7,7 +7,7 @@ using System.Web.Routing;
 
 namespace _11_CustomHTMLHelperMethod
 {
-    public class MvcApplication : System.Web.HttpApplication
+    public class MVCHtmlString : System.Web.HttpApplication
     {
         protected void Application_Start()
         {
